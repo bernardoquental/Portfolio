@@ -1,0 +1,82 @@
+/* Defina a fonte e o tamanho padrão do texto */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estilize o cabeçalho */
+  header {
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Estilize o logotipo do cabeçalho */
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilize a navegação do cabeçalho */
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+  }
+  
+  header nav ul li a {
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #444;
+  }
+  
+  /* Estilize as seções de conteúdo */
+  main section {
+    margin-bottom: 50px;
+  }
+  
+  main section h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  main section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main section li {
+    margin-bottom: 20px;
+  }
+  
+  main section a img {
+    max-width: 100%;
+  }
+  
+  main section h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Estilize o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
