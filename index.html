@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+
     <meta charset="UTF-8">
     <title>Bernardo Quental</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,10 +10,12 @@
     <link rel="stylesheet" href="style.css">
     
   </head>
+
   <body>
-    <header>
-      <h1>bq</h1>
-      <nav>
+
+    <header class="cont">
+      <h1 class="col-6">bq</h1>
+      <nav class="col-6">
         <ul>
           <li><a href="#about">about</a></li>
           <li><a href="#work">work</a></li>
@@ -20,46 +23,43 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <div>
-        <h1>Hi! I'm a Brazilian designer currently working at Globo</h1>
-      </div>
-      <section id="about">
-        <h2>Sobre</h2>
-        <p>[Algumas informações sobre você e sua carreira como designer.]</p>
+      <section id="main" class="cont">
+        <div class="col-12">
+          <h1>Hi! I'm a Brazilian designer currently solving complex problems at <a href="www.globo.com">Globo</a></h1>
+        </div>
       </section>
 
-      <section id="work">
-        <h2>Projetos</h2>
-        <ul>
+      <section id="about" class="cont">
+        <h2 class="col-4">about</h2>
+        <p class="col-8">
+          Graduated in Digital Media Design from PUC-Rio, working for over 5 years with digital products. I've already been involved in the development of chatbots, digital games and even sales flows.<br><br>I've been part of the Codex team for almost 2 years, a multi-platform and multi-brand Design System, having been involved in all decisions, from the beginning to the launch. I consider myself a person with a holistic and analytical view of problems, I like to solve complex problems and I believe that good design can change the world.
+        </p>
+      </section>
+
+      <section id="work" class="cont">
+        <h2 class="col-4">work</h2>
+        <ul class="col-8">
           <li>
-            <a href="projeto1.html">
-              <img src="projeto1.jpg" alt="Projeto 1">
-              <h3>Projeto 1</h3>
-            </a>
+            <img src="codex.png" alt="Projeto 1">
+            <h3>Codex</h3>
+            <p>I'm currently helping bring life to Globo's Design System for almost 2 years now. I was involved in all decisions, from scratch to launch of the Codex, a multi-platform and multi-brand Design System</p>
           </li>
-          <li>
-            <a href="projeto2.html">
-              <img src="projeto2.jpg" alt="Projeto 2">
-              <h3>Projeto 2</h3>
-            </a>
-          </li>
-          <li>
-            <a href="projeto3.html">
-              <img src="projeto3.jpg" alt="Projeto 3">
-              <h3>Projeto 3</h3>
-            </a>
-          </li>
+          
         </ul>
       </section>
       
-      <section id="contact">
-        <h2>Contato</h2>
-        <p>Entre em contato comigo através do email: [seu email aqui]</p>
+      <section id="contact" class="cont">
+        <h2 class="col-4">contact</h2>
+        <div class="col-8"  style=" margin-top: 1rem;">
+          <p style="display: inline; padding-right: 1rem;"><a href="mailto:bernardolquental@gmail.com">bernardolquental@gmail.com</a></p>
+          <p style="display: inline; padding-right: 1rem;"><a href="https://www.linkedin.com/in/bernardo-quental/">linkedin</a></p>
+        </div>
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 </p>
+      <p>this website was entirely made by myself as a personal chalenge - &copy; 2023 </p>
     </footer>
   </body>
 </html>
