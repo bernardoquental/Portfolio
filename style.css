@@ -77,18 +77,17 @@ body {
     max-width: 56rem;
     margin-bottom: 10rem;
   }
-
+  main section {
+    margin-top: 3rem;
+  }
   main section h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
-    margin-top: 1rem;
   }
 
   main section p{
     font-size: 2rem;
-    margin-top: 1rem;
-
   }
   
   main section ul {
@@ -104,7 +103,8 @@ body {
   
   main section img {
     max-width: 100%;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
   }
   
   main section h3 {
