@@ -1,7 +1,7 @@
-:root {
-    --font-display: var('Montserrat');
-    --font-book: var('Inter');
+html{
+    scroll-behavior: smooth;
 }
+
 .cont {
     display: flex;
     flex-wrap: wrap;
@@ -36,11 +36,17 @@ body {
     font-size: 1rem;
     color: #111;
     margin: 2.5rem 6.5rem 0 6.5rem;
+    background-color: #fff;
   }
   
   /* Estilize o cabeçalho */
   header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
     font-family: 'Montserrat', sans-serif;
+    left: 0;
+    right: 0;
   }
   
   /* Estilize o logotipo do cabeçalho */
@@ -49,7 +55,9 @@ body {
     font-weight: 300;
     margin: 0;
   }
-  
+  header h1 a:hover {
+    text-decoration: none;
+  }
   /* Estilize a navegação do cabeçalho */
   header nav ul {
     list-style: none;
@@ -67,26 +75,27 @@ body {
     padding-left: 1.5rem;
   }
   
-  
   /* Estilize as seções de conteúdo */
+
   main div h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 4rem;
     width: 100%;
     max-width: 56rem;
-    margin-bottom: 10rem;
+    margin-top: 20rem;
+    margin-bottom: 15rem;
   }
-  main section {
-    margin-top: 3rem;
-  }
+  
   main section h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
+    margin-top: 10rem;
   }
 
   main section p{
+    margin-top: 10rem;
     font-size: 2rem;
   }
   
@@ -95,16 +104,18 @@ body {
     display: inline;
     margin: 0;
     padding: 0;
+    margin-top: 10rem;
   }
   
   main section li {
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
   }
   
   main section img {
     max-width: 100%;
     border-radius: 2rem;
     margin-top: 3rem;
+    align-self: center;
   }
   
   main section h3 {
@@ -116,17 +127,24 @@ body {
   }
   main section ul p {
     font-family: inherit;
+    color: #555;
     font-weight: 400;
     font-size: inherit;
     margin: 0;
     margin-top: 0.5rem;
   }
+
+  main section div {
+    margin-top: 10rem;
+    gap: 5rem;
+    font-size: 2rem;
+    display: flex;
+  }
   
   /* Estilize o rodapé */
   footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    color: #111;
+    padding: 1rem;
     text-align: center;
   }
   
