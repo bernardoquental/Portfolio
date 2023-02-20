@@ -8,7 +8,6 @@ html{
     justify-content: space-between;
     margin: auto;
     max-width: 77rem;
-    margin-bottom: 10rem;
   }
   
   .col-6 {
@@ -35,11 +34,10 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #111;
-    margin: 2.5rem 6.5rem 0 6.5rem;
+    margin: 2rem 6.5rem 0 6.5rem;
     background-color: #fff;
   }
   
-  /* Estilize o cabeçalho */
   header {
     width: 100%;
     position: fixed;
@@ -47,22 +45,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     left: 0;
     right: 0;
+    
   }
   
-  /* Estilize o logotipo do cabeçalho */
   header h1 {
     font-size: 4.5rem;
     font-weight: 300;
     margin: 0;
   }
+
   header h1 a:hover {
     text-decoration: none;
-  }
-  /* Estilize a navegação do cabeçalho */
+  }  
+  
   header nav ul {
     list-style: none;
     text-align: right;
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: 400;
   }
   
@@ -72,10 +71,8 @@ body {
   
   header nav ul li a {
     display: block;
-    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
-  
-  /* Estilize as seções de conteúdo */
 
   main div h1 {
     font-family: 'Montserrat', sans-serif;
@@ -125,6 +122,7 @@ body {
     margin: 0;
     margin-top: 1rem;
   }
+
   main section ul p {
     font-family: inherit;
     color: #555;
@@ -141,7 +139,6 @@ body {
     display: flex;
   }
   
-  /* Estilize o rodapé */
   footer {
     color: #111;
     padding: 1rem;
@@ -153,4 +150,79 @@ body {
     font-size: 14px;
   }
   
+  @media screen and (min-width: 360px) and (max-width: 430px) {
+    .cont {
+      width: 100%;
+    }
+    body {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    header nav ul {
+      font-size: 1rem;
+      padding-right: 0.5rem;
+    }
+    header nav ul li a {
+      padding-right: 0.5rem;
+    }
+    main div h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      width: 100%;
+      max-width: 56rem;
+      margin-top: 20rem;
+      margin-bottom: 15rem;
+    }
+    main section h2 {
+      font-size: 1.5rem;
+    }
+    main section p{
+      margin-top: 10rem;
+      font-size: 1.25rem;
+    }
+    main section div {
+      margin-top: 10rem;
+      gap: 5rem;
+      font-size: 1.25rem;
+      display: grid;
+    }
+  }
+@media screen and (min-width: 431px) and (max-width: 744px) {
+  .cont {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  body {
+    margin: 2rem 2rem 0 2rem;
+  }
+  header nav ul {
+    font-size: 1.75rem;
+    padding-right: 5rem;
+  }
+  header nav ul li a {
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 745px) and (max-width: 1280px) {
+  .cont {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  header h1 {
+    font-size: 4rem;
+  }
+  
+  header nav ul {
+    font-size: 2rem;
+    padding-right: 5rem;
+  }
+  
+  header nav ul li a {
+    padding-right: 1.5rem;
+  }
+}
 
